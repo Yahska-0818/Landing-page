@@ -12,10 +12,11 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
+    gap: 300px;
 }
 
 .header p {
@@ -55,8 +56,8 @@ a {
     background-color: #1F2937;
     flex: 1;
     display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .info {
@@ -72,4 +73,41 @@ a {
 .signup {
     background-color: #f9faf8;
     flex: 1;
+}
+
+.intro-left {
+    width: 400px;
+}
+
+.intro-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.intro-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.intro-left h4 {
+    color: #e5e7eb;
+    background-color: #3A83F6;
+    width: 60px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.intro-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 225px;
+    width: 500px;
+    color: white;
 }
