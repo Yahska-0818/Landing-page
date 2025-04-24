@@ -45,3 +45,31 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.info {
+    background-color: #f9faf8;
+    flex: 1;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    flex: 1;
+}
+
+.signup {
+    background-color: #f9faf8;
+    flex: 1;
+}
