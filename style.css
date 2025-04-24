@@ -107,6 +107,28 @@ a {
 .quote {
     background-color: #e5e7eb;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    width: 820px;
+    margin: 0;
+}
+
+.author {
+    font-weight: bold;
+    margin: 0;
+    width: 760px;
+    font-size: larger;
+    text-align: right;
 }
 
 .signup {
