@@ -67,12 +67,41 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .random {
     color: #1f2947;
     font-size: 36px;
     font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    color: #656C79;
+    width: 1200px;
+    justify-content: space-evenly;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-1 h6, .card-2 h6, .card-3 h6, .card-4 h6 {
+    border: 5px solid #3A83F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.card-1 p, .card-2 p, .card-3 p, .card-4 p {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
 }
 
 .quote {
